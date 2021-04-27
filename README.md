@@ -1,5 +1,5 @@
 # Test Tasks
 
-## Digital Marketing
+## Both Digital Marketing and Analytics
 
 Test tasks that I've made for several companies
