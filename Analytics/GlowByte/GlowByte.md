@@ -1,3 +1,4 @@
+--Standard SQL
 ```sql
 WITH
   UserTable AS (
