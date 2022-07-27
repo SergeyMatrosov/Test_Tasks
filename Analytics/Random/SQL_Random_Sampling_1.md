@@ -7,7 +7,7 @@ DECLARE n INT64 DEFAULT 10;
 DECLARE i INT64 DEFAULT 0;
 
 --сюда будем записывать
-CREATE TEMP TABLE task_1 (sample_id STRING);
+CREATE TEMP TABLE task_1 (item_id STRING);
 
 --отсюда будем брать рандомно выборки
 CREATE TEMP TABLE temptable AS (
@@ -43,7 +43,7 @@ LOOP
     LEAVE;
   ELSE
   --берем рандомно строку и кидаем ее в task_1
-  INSERT INTO task_1 (sample_id)
+  INSERT INTO task_1 (item_id)
   SELECT
     item_id
   FROM
